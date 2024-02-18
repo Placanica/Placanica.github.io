@@ -6,7 +6,9 @@ body {
   font-weight: 400;
   font-size: 1rem;
   background: #fff;
-  background: #F5EEDC;}
+  /*background: #F5EEDC;*/
+  background-color: #fffff3;
+}
 
 html {
   /*background: #F5EEDC; */
