@@ -113,6 +113,17 @@ h1, h2, h3, h4, h5,
     box-shadow: none;
     outline: none; }
 
+/*.phone {
+      display: block;
+      padding: 4px 0;
+      color: #000;
+      text-transform: uppercase;
+      font-size: .6rem;
+      font-weight: 600;
+      position: relative;
+      padding-left: 25px; 
+      }
+ */
 .site-section {
   padding: 2.5em 0; }
   @media (min-width: 768px) {
@@ -277,7 +288,7 @@ h1, h2, h3, h4, h5,
     line-height: 1.5; }
     .ul-check li:before {
       left: 0;
-      font-size: 20px;
+      font-size: 1em;
       top: -.3rem;
       font-family: "icomoon";
       content: "\e5ca";
@@ -389,7 +400,8 @@ h1, h2, h3, h4, h5,
             height: 0;
             width: 0;
             position: absolute;
-            pointer-events: none; }
+            /*pointer-events: none; */
+           }
           .site-navbar .site-navigation .site-menu .has-children .dropdown.arrow-top:before {
             border-color: rgba(136, 183, 213, 0);
             border-bottom-color: #fff;
@@ -1236,9 +1248,34 @@ h1, h2, h3, h4, h5,
   opacity: 10;
   visibility: visible; }
 
+  .information {
+    padding-bottom: 1em;
+  }
+
+  .follow-me {
+    padding-top: 2em;
+  }
+  /* Updated services font size and formatting */
+
+.services {
+    font-size: 1.5em;
+  }
+
+  @media (min-width: 991.98px) {
+    .mr-md-auto2 {
+margin-left: 3em;
+        }
+  }
+
+.reach {
+  /*margin-left: 2.5em; */
+  justify-content: center;
+}
  .crop_top {
 object-position: 0% -50%;
  }
+
+
 
 #crossfade > img { 
   width: 100%;
