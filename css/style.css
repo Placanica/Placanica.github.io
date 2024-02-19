@@ -1266,6 +1266,10 @@ h1, h2, h3, h4, h5,
     font-size: 1.5em;
   }
 
+.follow_me_insta {
+  padding-right: 2em;
+
+}
   @media (min-width: 991.98px) {
     .mr-md-auto2 {
 margin-left: 3em;
